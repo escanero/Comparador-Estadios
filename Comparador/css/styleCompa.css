@@ -1,0 +1,173 @@
+
+/* Estilos CSS */
+.estadio {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.estadio h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.estadio p {
+    margin-bottom: 5px;
+}
+
+.estadio img {
+    width: 80px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.estadio.mayor-capacidad {
+    background-color: rgba(0, 255, 0, 0.8); /* Cambiar el color para el estadio con mayor capacidad */
+}
+
+#resultados {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    gap: 30px;
+    float: left;
+    margin-left: 100px;
+    
+}
+
+#resultados {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    gap: 30px;
+    float: left;
+    margin-left: 100px;
+}
+
+#resultados img {
+    transition: transform 0.6s ease;
+}
+
+#resultados img:hover {
+    transform: scale(4.0);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../fotos/juventus-1.jpeg);
+    background-size: cover;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.filtro {
+    width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    column-count: 2; /* Divide en 2 columnas */
+    column-gap: 20px;
+}
+
+.filtro1 {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#slider-range {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#capacity-range {
+    display: none;
+}
+
+#selected-range {
+    text-align: center;
+    font-size: 24px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0795b2;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+div {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+  .filtro input[type="checkbox"] + span {
+    display: inline-block;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+  }
+  
+  .filtro input[type="checkbox"] + span::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #999;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .filtro input[type="checkbox"]:checked + span::before {
+    background-color: #0795b2;
+    border-color: #0795b2;
+  }
+  
+  .filtro input[type="checkbox"] + span::after {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  
+  .filtro input[type="checkbox"]:checked + span::after {
+    opacity: 1;
+    background-color: #0795b2;
+  }
+  

@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../fotos/fondo11.png);
+    background-size: cover;
+}
+
+.header img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+/* Definimos el estilo del encabezado */
+.header {
+    background-color: #fff;
+    border-bottom: 5px solid rgb(139, 139, 141);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+}
+
+.foto{
+    margin-left: 1000px;
+ 
+ }
+
+
+
+    .compara {
+        font-size: xx-large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px; /* Ajusta el alto de la caja según tus necesidades */
+        margin-top: 300px;
+        }
+        
+        .compara a {
+        display: inline-block;
+        padding: 20px;
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        background-color: #007bff; 
+        border-radius: 5px;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); 
+        transition: background-color 0.3s ease-in-out;
+            }
+        
+        .compara a:hover {
+        background-color: #0795b2; /* Cambia el color de fondo al hacer hover */
+        }
+
+ 

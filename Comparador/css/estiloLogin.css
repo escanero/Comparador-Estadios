@@ -1,0 +1,109 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../fotos/SantiagoBernabeu1.jpg);
+    background-size: cover;
+  }
+  
+  #archivo3 {
+    margin: 100px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  #archivo3 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  
+  }
+
+  #archivo3 a {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #282870;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: small;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+ 
+  #archivo3 a:hover {
+    background-color:#282870;
+  }
+
+  .foto{
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .archivo3 {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#archivo1 h2, #archivo3 h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+#archivo3 input[type="text"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+
+#archivo3 input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #282870;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+
+#archivo3 input[type="submit"]:hover {
+  background-color: #0795b2;
+}
+
+
+.logo{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+  }

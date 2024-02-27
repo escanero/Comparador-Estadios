@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: black;
+    background-image: url(../fotos/ajax.jpg);
+    background-size: cover;
+   
+  }
+  
+  form {
+    margin:auto;
+    margin-top: 50px;
+    padding: 20px;
+    max-width: 330px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+
+  .logo{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+  }
+  .remember {
+    display: flex; /* establece el diseño de caja flexible */
+    align-items: center;
+    font-size: small; 
+     margin-top: -10px;
+    }
+  
+  .checkbox {
+    margin-right: 10px;
+   
+    
+  }
+
+  .boton{
+    width:100px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #282870;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .boton:hover {
+    background-color: #0795b2;
+  }

@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../fotos/calderon.jpg);
+    background-size: cover;
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="file"],
+  select {
+    display: block;
+    width: 60%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"]
+  {
+    display: block;
+    width: 60%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  select option {
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #282870;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0795b2;
+  }
+
+  input[type="button"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #282870;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #0795b2;
+  }
+
+  
+.logo{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+  }
+
+
+  .error{
+    color: red;
+   margin-left: 550px;
+   font-weight: bold;
+}
+
+.mensaje-error{
+  color: red;
+  margin-left: 550px;
+  font-weight: bold;
+}
+
+.mensaje{
+  color: greenyellow;
+  margin-left: 550px;
+   font-weight: bold;
+}
+
+.exito{
+  color: greenyellow;
+  margin-left: 600px;
+   font-weight: bold;
+}
+
+.mensaje3,
+.mensaje4,
+.mensaje5 {
+text-align: center;
+color: greenyellow;
+font-weight: bold;
+        }
+.mensaje-error3,
+.mensaje-error4,
+.mensaje-error5,
+.mensaje-error6 {
+text-align: center;
+color: red;
+font-weight: bold;
+}
